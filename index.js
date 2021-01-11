@@ -151,7 +151,7 @@ async function starts() {
 			const botNumber = client.user.jid
 			const ownerNumber = ["6282193030283@s.whatsapp.net"] // GANTI NOMOR LU
 			const adminbotnumber = ["6282193030283@s.whatsapp.net"] // GANTI NOMOR LU
-			const frendsowner = ["628165466368@s.whatsapp.net"] // GAUSAH DIGANTI!!!
+			const frendsowner = ["6285934521937@s.whatsapp.net"] // GAUSAH DIGANTI!!!
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
@@ -199,7 +199,7 @@ async function starts() {
 				case 'info':
 					me = client.user
 					uptime = process.uptime()
-					teks = `➽ *Nama Bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefix* : _${prefix}_\n➽ *Total Block* : _${blocked.length}_\n➽ *Aktif Sejak* : _${kyun(uptime)}_\n➽ *Instagram* : https://www.instagram.com/nur.fdhl_\n➽ *YouTube* : https://youtube.com/channel/UCdQHlF_G7XUaPCSHw-WMS0g\n➽ *Script By* : _Fadhil Graphy_ [Fadhil]\n➽ *Note* : _Ini SC pribadi no minta SC_\n➽ *Sepecial Thangks To* :\n➽ _Allah SWT_ \n➽ _MahankBarBar_ \n➽ _Seluruh member *MyBot Team*_\n➽ _Fadhil Graphy_\n➽ _MahankBarbar_\n➽ _Affis_\n➽ _Anang_\n➽ _Bryan_\n➽ _Bagas_\n➽ _Ntaa_\n➽ _XP-TN_\n➽_YUKINIKO_\n_DLL_`
+					teks = `➽ *Nama Bot* : _${me.name}_\n➽ *Nomer Bot* : _@${me.jid.split('@')[0]}_\n➽ *prefix* : _${prefix}_\n➽ *Total Block* : _${blocked.length}_\n➽ *Aktif Sejak* : _${kyun(uptime)}_\n➽ *Instagram* : https://www.instagram.com/rbs.420\n➽ *YouTube* : https://youtube.com/channel/UCVoeo63MfuTBPXlbj-ldX3Q\n➽ *Script By* : _RibasYT_ [RBOT]\n➽ *Note* : _Ini SC pribadi no minta SC_\n➽ *Sepecial Thangks To* :\n➽ _Allah SWT_ \n➽ _MahankBarBar_ \n➽ _Seluruh member *MyBot Team*_\n➽ _RibasYT_\n➽ _MahankBarbar_\n➽ _Affis_\n➽ _Anang_\n➽ _Bryan_\n➽ _Bagas_\n➽ _Wildan_\n➽ _XP-TN_\n➽_YUKINIKO_\n_DLL_`
 					buffer = await getBuffer(me.imgUrl)
 					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
 					break
@@ -771,7 +771,7 @@ async function starts() {
 					break
                 case 'donasi':
 				case 'donate':
-					client.sendMessage(from, 'Mau donasi ya om?✨\n\n اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_\n\n*Pulsa XL :* _0877-2064-6259_\n*Dana :* _0877-2064-6259_\n*TRAKTEER :* _https://trakteer.id/yukiniko\n*Gopay :* _0877-2064-6259_\n*OVO :* _0877-2064-6259_', text, { quoted: mek })
+					client.sendMessage(from, 'Mau donasi ya om?✨\n\n اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ\n_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_\n\n*Pulsa Telkom :* _0821-9303-0283_\n*Dana :* _0821-9303-0283_\n*TRAKTEER :* https://saweria.co/rbssindo\n*Gopay :* _0821-9303-0283_\n*OVO :* _0821-9303-0283_', text, { quoted: mek })
 					break
                 case 'tes':
                    client.sendMessage(from, 'ok', text, {quoted: mek})
@@ -1641,7 +1641,7 @@ async function starts() {
 						teks += `╠➥ @${mem.jid.split('@')[0]}\n`
 						members_id.push(mem.jid)
 					}
-					mentions('╔══✪〘 𝐿𝑂𝑉𝐸 𝑌𝑂𝑈 〙✪══'+teks+'╚═〘 𝐼𝑐ℎ𝑖 𝐵𝑜𝑡 〙', members_id, true)
+					mentions('╔══✪〘 𝐿𝑂𝑉𝐸 𝑌𝑂𝑈 〙✪══'+teks+'╚═〘 Ribas 𝐵𝑜𝑡 〙', members_id, true)
 					break
 				case 'clearall':
 					if (!isOwner) return reply('Kamu siapa?')
@@ -1665,7 +1665,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *𝐼𝐶𝐻𝐼 𝐵𝑅𝑂𝐴𝐷𝐶𝐴𝑆𝑇* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *RIBAS 𝐵𝑅𝑂𝐴𝐷𝐶𝐴𝑆𝑇* ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
@@ -1960,7 +1960,7 @@ async function starts() {
 						reply('Suksess broadcast')
 					} else {
 						for (let _ of anu) {
-							sendMess(_.jid, `[ *XPTN Broadcast* ]\n\n${body.slice(4)}`)
+							sendMess(_.jid, `[ *RIBAS Broadcast* ]\n\n${body.slice(4)}`)
 						}
 						reply('Suksess broadcast')
 					}
