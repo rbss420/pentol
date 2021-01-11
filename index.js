@@ -2,7 +2,7 @@
 * Om mau ngapain om, jangan om...
 * Hayo mau ngapainn
 * Jangan diganti kecuali yg gua bolehin!!!
-* By Fadhil Graphy
+* By RibasYT
 * TQTO ada di paling bawah!!!
 * cari report sama request ganti nomor lu!!!
 */
@@ -35,9 +35,9 @@ const anime = JSON.parse(fs.readFileSync('./src/anime.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN ASU!?
             + 'VERSION:3.0\n' // SANA BUAT SENDIRI ENAK BENER LU!!!
-            + 'FN:Mas Lent Creator\n' // NAMA OWNER BOT
-            + 'ORG:Creator MASLENT;\n' // KASIH CREDITS GUA Bang LENT JANCOK!!!
-            + 'TEL;type=CELL;type=VOICE;waid=628165466368:+62 816-5466-368\n' // GANTI NOMOR LU
+            + 'FN: RibasYT\n' // NAMA OWNER BOT
+            + 'ORG: RIBASBOT;\n' // KASIH CREDITS GUA Bang LENT JANCOK!!!
+            + 'TEL;type=CELL;type=VOICE;waid=622193030283:+62 821-9303-0283\n' // GANTI NOMOR LU
             + 'END:VCARD'
 prefix = '/'
 blocked = []
@@ -149,8 +149,8 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["628165466368@s.whatsapp.net"] // GANTI NOMOR LU
-			const adminbotnumber = ["628165466368@s.whatsapp.net"] // GANTI NOMOR LU
+			const ownerNumber = ["6282193030283@s.whatsapp.net"] // GANTI NOMOR LU
+			const adminbotnumber = ["6282193030283@s.whatsapp.net"] // GANTI NOMOR LU
 			const frendsowner = ["628165466368@s.whatsapp.net"] // GAUSAH DIGANTI!!!
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
